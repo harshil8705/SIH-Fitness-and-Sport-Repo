@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-        <h1>up dated by urvesh chauhan</h1>
+        <h1>up dated by : urvesh</h1>
     </>
   )
 }
