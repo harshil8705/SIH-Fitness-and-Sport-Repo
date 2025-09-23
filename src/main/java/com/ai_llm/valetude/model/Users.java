@@ -1,6 +1,7 @@
 package com.ai_llm.valetude.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
@@ -19,13 +20,23 @@ public class Users {
     private String username;
 
     @NotNull
-    private Integer currentWeight;
+    @Email
+    private String email;
+
+    @NotNull
+    private String mobileNo;
+
+    @NotNull
+    private String password;
+
+    @NotNull
+    private Integer weight;
 
     @NotNull
     private Integer height;
 
     @NotNull
-    private Integer goalWeight;
+    private Gender gender;
 
     @NotNull
     private String fitnessGoal;
