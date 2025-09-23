@@ -1,13 +1,11 @@
-import { useState } from 'react'
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import './App.css'
-
+import Home from './components/mainPage'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-        <h1 className='text-blue-500'> up dated by : urvesh</h1>
-        <h1> up dated by tisha: sih</h1>
+      <Home/>
     </>
   )
 }
