@@ -7,8 +7,10 @@ function App() {
   return (
     <>
         <h1 className='text-blue-500'> up dated by : urvesh</h1>
+        <h1> up dated by tisha: sih</h1>
     </>
   )
 }
 
 export default App
+
