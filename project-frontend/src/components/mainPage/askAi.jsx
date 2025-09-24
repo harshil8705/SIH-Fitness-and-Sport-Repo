@@ -16,7 +16,7 @@ export default function AskAi() {
 
     try {
       const response = await fetch(
-        `http://localhost:9090/api/exercise/recommendations?goal=${encodeURIComponent(goal)}`
+        `http://localhost:9090/api/exercise/recommendations?userGoal=${encodeURIComponent(goal)}`
       );
 
       if (!response.ok) {
